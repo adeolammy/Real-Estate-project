@@ -31,31 +31,27 @@
 
 
  .nav-sect img{
-        border: 2px dashed rgb(251,106,25);
-   		border-radius: 50%;
-   		padding: .3rem;
-    	 width: 40px;
-        height: 30px;
+    border: 2px dashed rgb(251,106,25);
+    border-radius: 50%;
+    padding: .3rem;
+    width: 40px;
+    height: 30px;
 
 
 }
 
 
-.overlay >  img{
+.overlay {
     margin: 0;
     width: 100%;
     height: 65vh;
     overflow: hidden;
-    /* opacity: .5; */
-    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(--image-url) center center; */
-  /* background-size: cover; */
-    
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/blog-06.jpg) center center;
+    background-size: cover;
 }
-.overlay::after{
-    content: '';
-    position: absolute;
-    z-index: 3;
-  width: 100%;
-  height: 69vh;
-  background-color: rgba(0, 0, 0, 0.5);
-} 
+
+.overlay > h2, h4{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
