@@ -36,8 +36,7 @@
     padding: .3rem;
     width: 40px;
     height: 30px;
-
-
+    cursor: pointer;
 }
 
 
@@ -54,4 +53,115 @@
     color: white;
     text-align: center;
     margin-top: 4rem;
+
 }
+
+
+.dropdown button{
+    justify-content: center;
+    text-align: center;
+    opacity: 0.7;
+    border-radius: 5px 5px 0 5px;
+    height: 70px;
+    width: 230px;
+    border-right:rgb(10, 10, 10) solid 2px;
+}
+
+.dropdown-part {
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+.dropdown button:last-child{
+    width: 130px;
+}
+
+
+.go-part {
+    color:white!important;
+    font-weight: bolder!important;
+    font-size: 1.6rem!important;
+    background-color: rgb(251,106,25)!important;
+    height: 9vh;
+    position: relative;
+    left: -3rem;
+    top: .4rem;
+    cursor: pointer;
+}
+.go-part:hover{
+    opacity: 0.9;
+}
+
+/* WHO WE ARE SECTION */
+/* WHO WE ARE SECTION */
+
+.who-are-we{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgbrgb(11,44,61);
+}
+
+.who-are-we-content-right{
+    margin-left: 5rem;
+   position: relative;
+}
+.who-are-we-content-right img{
+    border: 2px dashed rgb(251,106,25); 
+   position: absolute;
+   border-radius: 50%;
+   top: 4rem;
+    left: 20rem;
+    padding: .4rem;
+    
+}
+
+/* LEFT SIDE OF CONTENT */
+.who-are-we-content-wrapper{
+    position: relative;
+}
+.who-are-we-content-left{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 5rem;
+}
+.who-are-we-content-left img{
+    border: 2px dashed rgb(251,106,25); 
+   position: absolute;
+   border-radius: 50%;
+    padding: .4rem;
+    top: 4rem;
+    right: 23rem;
+    
+}
+.who-are-we-content-left-1{
+    top: 10rem;
+    right: 0;
+    position: absolute;
+    margin-right: 5rem;
+}
+.who-are-we-content-left-1 img{
+    border: 2px dashed rgb(251,106,25); 
+   position: absolute;
+   border-radius: 50%;
+    padding: .4rem;
+    top: 4rem;
+    right: 23rem;
+    
+}
+.who-are-we-content-left-2{
+    top: 20rem;
+    right: 0;
+    position: absolute;
+    margin-right: 5rem;
+}
+.who-are-we-content-left-2 img{
+    border: 2px dashed rgb(251,106,25); 
+   position: absolute;
+   border-radius: 50%;
+    padding: .4rem;
+    top: 4rem;
+    right: 23rem;
+    
+}
+
