@@ -56,15 +56,18 @@
 
 }
 
+.dropdown > button{
+     margin-left: -5rem;
+     text-align: center;
+}
 
 .dropdown button{
     justify-content: center;
     text-align: center;
     opacity: 0.7;
-    border-radius: 5px 5px 0 5px;
     height: 70px;
-    width: 230px;
-    border-right:rgb(10, 10, 10) solid 2px;
+    width: 231px;
+    border-right:rgb(10, 10, 10) solid 5px;
 }
 
 .dropdown-part {
@@ -74,6 +77,7 @@
 
 .dropdown button:last-child{
     width: 130px;
+    border-right:rgb(10, 10, 10) solid ;
 }
 
 
@@ -84,7 +88,7 @@
     background-color: rgb(251,106,25)!important;
     height: 9vh;
     position: relative;
-    left: -3rem;
+    left: -8rem;
     top: .4rem;
     cursor: pointer;
 }
@@ -95,10 +99,18 @@
 /* WHO WE ARE SECTION */
 /* WHO WE ARE SECTION */
 
+.container-for-who-are-we{
+    background-color: rgb(228, 228, 228);
+    height: 100vh;
+}
+
 .who-are-we{
     text-align: center;
-    margin-top: 2rem;
-    color: rgbrgb(11,44,61);
+    color: rgb(11,44,61);
+}
+.who-are-we img{
+    margin-top: 1rem;
+
 }
 
 .who-are-we-content-right{
@@ -165,3 +177,180 @@
     
 }
 
+.recent-wrapper{
+    text-align:center;
+}
+.recent-wrapper > h5{
+    font-size: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+.recent-wrapper > h5::after{
+    content: '';
+    position: relative;
+    bottom: .7rem;
+    border-bottom: 2px solid rgb(251,106,25);
+    padding: 0 1rem 0 1.6rem;
+}
+.recent-wrapper > h5::before{
+    content: '';
+    position: relative;
+    bottom: .7rem;
+    border-bottom: 2px solid rgb(251,106,25);
+    padding: 0 1.6rem 0 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card{
+    
+    width: 280px;
+    margin: 0 -3rem;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card > img{
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    width: 260px;
+    height:  230px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: 0;
+    overflow: hidden;
+    filter: brightness(0.7);
+  
+ 
+    
+}
+
+
+.card-img-overlay {
+    position: relative;
+    text-align: center;
+}
+.card-img-overlay > a{
+    
+    width: 140px;
+    position: absolute;
+    border-radius: 15px 0 0 15px;
+
+}
+.overlay-imgs {
+     cursor: pointer;
+    display: flex;
+    gap: 4px;
+    top: 12.1rem;
+    position: relative; 
+    color: rgb(251,106,25);
+
+}
+
+.card-title{
+line-height: 12px;
+font-size: 1rem;
+}
+
+.card-title > h5{
+line-height: 12px;
+font-size: 1rem;
+color: rgb(11,44,61);
+}
+
+.card-title > h5:nth-child(2){
+color: rgb(251,106,25);
+font-size: 1rem;
+}
+
+.accessory-part{
+margin-left: -1.7rem;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+
+}
+
+.accessory-part > span{
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: -0.8rem;
+}
+
+.card-footers{
+    display: flex; 
+    justify-content: center;
+    position: relative; 
+    align-items: center; 
+    background-color: rgb(11,44,61);
+    color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.card-footers::before{
+     content: '';
+    position: absolute; 
+    z-index: 1;
+    margin-right: 10.4rem;
+    height: 10%;
+    width: 40%;
+    border-top: 34px solid  rgb(251,106,25);
+	border-right: 55px solid transparent;
+}
+.card-footers > h5{
+     margin: auto;
+      font-size:0.7rem;
+      margin-left: 1rem;
+      position: relative; 
+        z-index: 3;
+}
+
+.card-footers > h5:nth-child(2){
+     margin: auto;
+      font-size:0.7rem;
+      margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
