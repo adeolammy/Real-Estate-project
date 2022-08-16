@@ -372,68 +372,207 @@ grid-template-columns: repeat(4, 1fr);
 
 .our-agent-container{
     text-align: center;
+    width: 100%;
+    /* margin: 0 3rem; */
    
 }
 
 .our-agent-container p{
     text-align: justify;
-    width: 60%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 1rem auto;
     font-size: 0.9rem;
   
 }
 
 .agent-wrapper{
-width: 50%;
-margin: 0 auto;
+width: 90vw;    
+position: relative;
+left: 5rem;
+
 }
 
 .agent-img {
     position: relative;
     justify-content: center;
-       background-color: rgb(251,106,25);
-       width: 70%;
-        height: 70%;
 }
+
 .agent-img > img{
     position: absolute;
-    margin: 0 auto;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 40%;
     border-radius: 50%;
 }
 .agent-body{
-    height: 100%!important;
-    background-color: rgb(251,106,25)    ;
+    height: 25vh!important;
+    background-color: rgb(251,106,25);
+    text-align: center;
+    /* border-radius: 8px 0 ; */
 }
 .agent-body:nth-child(1){
-    height: 100%!important;
-    background-color: rgb(11, 18, 61);
+    border-radius: 8px 8px 0 0;
+    height: 29vh!important;
+    background-color: rgb(11,44,61);
+    text-align: center;
+}
+.agent-body > p {
+    position: absolute;
+    color: white;
+    bottom: 2.4rem; 
+    left: 3rem;
+    margin: 0 auto;
+}
+.agent-body > h4 {
+    position: absolute;
+    color: white;
+    bottom: 60px; 
+    left: 2.6rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.agent-body > img {
+    display: flex;
+    flex-direction: column;
+     cursor: pointer;
+    margin-bottom: 12px;
+    position: relative;
+   left: 9rem;
+   filter: brightness(0.5);
 }
 
 
+/* FOOTER  FOOOTER  FOOTER */
+
+.jumbotron-fluid{
+    background-color: rgb(11,44,61)!important;
+    position: relative;
+    bottom: -2rem;
+}
+
+.logo-text{
+    position: relative;
+    left: 0;
+    text-align: left;
+
+}
+
+.logo-text img{
+    position: absolute;
+    left: -4rem;
+    top: -4rem;
+}
+.logo-text span{
+    position: absolute;
+    left: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    top: -4rem;
+    color: white;
+}
+.logo-text > p{
+    position: relative;
+    left: -2.3rem;
+    width: 92%;
+    top: -0.6rem;
+    color: white;
+    line-height: 1.8;
+}
+
+.line{
+    position: relative;
+    left: -3.5rem;
+    top: -4rem;
+    border-right: solid 2px rgb(255, 255, 255);
+    height: 200px;
+}
+
+.explore ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+}
+.explore ul >li{
+    line-height: 1;
+    width: 120px;
+    position: relative;
+    top: -3rem;
+     left: -2.5rem;
+     list-style: none;
+
+}
+.explore ul >li:nth-child(5){
+    line-height: 1.5;
+    position: relative;
+    top: -3.2rem;
+
+}
+.explore ul >li:hover{
+    border-bottom: none;
+
+}
+
+.explore h4{
+    color: rgb(251,106,25);
+     position: relative;
+    left: -12rem;
+    top: -3rem;
+
+}
 
 
+.subscribe h3{
+font-size: 1rem;
+color: white;
+ position: relative;
+    top: -3rem;
+}
+.sub-btn:nth-child(2){
+font-size: 1.3rem;
+color: rgb(0, 0, 0)!important;
+padding: 0.3rem 8rem!important;
+background-color: white!important;
+margin-top: 8px;
+ position: relative;
+    top: -2rem;
+    font-size: 1rem;
+}
+.sub-btn{
+    font-size: 1rem;
+font-size: 1.3rem;
+color: white!important;
+background-color: rgb(251,106,25)!important;
+padding: 0.3rem 7rem!important;
+margin-top: 8px;
+ position: relative;
+    
+}
+.sub-btn:hover{
+opacity: 0.9;
+}
+
+.line-down{
+    position:absolute;
+    bottom: 7rem;
+    width: 90%;
+    border-top: 1px solid white;
+}
 
 
+.footer-last-part{
+    display: flex;
+    position:absolute;
+    left: 3.5rem;
+    bottom: 3rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.copyright-part >h4{
+    font-size: 1rem;
+    width: 490px;
+    position:absolute;
+    right: 4rem;
+    bottom: 3rem;
+}
 
 
 
