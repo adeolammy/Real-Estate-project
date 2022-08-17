@@ -47,17 +47,50 @@
     overflow: hidden;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/blog-06.jpg) center center;
     background-size: cover;
+    text-align: center;
 }
 
-.overlay > h2, h4{
+.overlay > h1{
     color: white;
     text-align: center;
     margin-top: 4rem;
+    font-size: 4.5rem;
+
+}
+.overlay > h4{
+    display: inline-block;
+    font-size: 2.4rem;
+    width: 230px;
+    color: white;
+
+}
+.overlay > h4:nth-child(2):before{
+    content: '';
+    font-size: 0.4rem;
+    border: 1px solid rgb(251,106,25);
+    background-color: rgb(251,106,25);
+    padding: 2px 5px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+   
+
+}
+.overlay > h4:nth-child(3)::after{
+    content: '';
+    font-size: 0.4rem;
+    border: 1px solid rgb(251,106,25);
+    background-color: rgb(251,106,25);
+    padding: 2px 5px;
+    position: relative;
+    top: -5px;
+    left: 6px;
+
 
 }
 
 .dropdown > button{
-     margin-left: -6rem;
+     margin-left: -5rem;
      text-align: center;
 }
 
@@ -67,7 +100,7 @@
     opacity: 0.7;
     height: 70px;
     width: 231px;
-    border-right:rgb(102, 98, 98) solid 5px;
+    border-right:rgb(10, 10, 10) solid 5px;
 }
 
 .dropdown-part {
@@ -81,101 +114,7 @@
 }
 
 
-.go-part {
-    color:white!important;
-    font-weight: bolder!important;
-    font-size: 1.6rem!important;
-    background-color: rgb(251,106,25)!important;
-    height: 9vh;
-    position: relative;
-    left: -8rem;
-    top: .4rem;
-    cursor: pointer;
-}
-.go-part:hover{
-    opacity: 0.9;
-}
 
-/* WHO WE ARE SECTION */
-/* WHO WE ARE SECTION */
-
-.container-for-who-are-we{
-    background-color: rgb(228, 228, 228);
-    height: 100vh;
-}
-
-.who-are-we{
-    text-align: center;
-    color: rgb(11,44,61);
-}
-.who-are-we img{
-    margin-top: 1rem;
-
-}
-
-.who-are-we-content-right{
-    margin-left: 5rem;
-   position: relative;
-}
-.who-are-we-content-right img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-   top: 4rem;
-    left: 20rem;
-    padding: .4rem;
-    
-}
-
-/* LEFT SIDE OF CONTENT */
-.who-are-we-content-wrapper{
-    position: relative;
-}
-.who-are-we-content-left{
-    top: 0;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
-.who-are-we-content-left-1{
-    top: 10rem;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left-1 img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
-.who-are-we-content-left-2{
-    top: 20rem;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left-2 img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
 
 .recent-wrapper{
     margin-top: 1rem;
@@ -442,6 +381,8 @@ left: 5rem;
 
 
 /* FOOTER  FOOOTER  FOOTER */
+/* FOOTER  FOOOTER  FOOTER */
+/* FOOTER  FOOOTER  FOOTER */
 
 .jumbotron-fluid{
     background-color: rgb(11,44,61)!important;
@@ -515,7 +456,7 @@ left: 5rem;
 .explore h4{
     color: rgb(251,106,25);
      position: relative;
-    left: -12rem;
+    left: -1.2rem;
     top: -3rem;
 
 }

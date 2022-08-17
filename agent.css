@@ -47,17 +47,51 @@
     overflow: hidden;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/blog-06.jpg) center center;
     background-size: cover;
+    text-align: center;
 }
 
-.overlay > h2, h4{
+.overlay > h1{
     color: white;
     text-align: center;
     margin-top: 4rem;
+    font-size: 4.5rem;
+
+}
+.overlay > h4{
+    display: inline-block;
+    font-size: 2.4rem;
+    width: 230px;
+    color: white;
+
+}
+.overlay > h4:nth-child(2):before{
+    content: '';
+    font-size: 0.4rem;
+    border: 1px solid rgb(251,106,25);
+    background-color: rgb(251,106,25);
+    padding: 2px 5px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+   
+
+}
+.overlay > h4:nth-child(3)::after{
+    content: '';
+    font-size: 0.4rem;
+    border: 1px solid rgb(251,106,25);
+    background-color: rgb(251,106,25);
+    padding: 2px 5px;
+    position: relative;
+    top: -5px;
+    left: 6px;
+
 
 }
 
+
 .dropdown > button{
-     margin-left: -6rem;
+     margin-left: -5rem;
      text-align: center;
 }
 
@@ -67,7 +101,7 @@
     opacity: 0.7;
     height: 70px;
     width: 231px;
-    border-right:rgb(102, 98, 98) solid 5px;
+    border-right:rgb(10, 10, 10) solid 5px;
 }
 
 .dropdown-part {
@@ -81,126 +115,6 @@
 }
 
 
-.go-part {
-    color:white!important;
-    font-weight: bolder!important;
-    font-size: 1.6rem!important;
-    background-color: rgb(251,106,25)!important;
-    height: 9vh;
-    position: relative;
-    left: -8rem;
-    top: .4rem;
-    cursor: pointer;
-}
-.go-part:hover{
-    opacity: 0.9;
-}
-
-/* WHO WE ARE SECTION */
-/* WHO WE ARE SECTION */
-
-.container-for-who-are-we{
-    background-color: rgb(228, 228, 228);
-    height: 100vh;
-}
-
-.who-are-we{
-    text-align: center;
-    color: rgb(11,44,61);
-}
-.who-are-we img{
-    margin-top: 1rem;
-
-}
-
-.who-are-we-content-right{
-    margin-left: 5rem;
-   position: relative;
-}
-.who-are-we-content-right img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-   top: 4rem;
-    left: 20rem;
-    padding: .4rem;
-    
-}
-
-/* LEFT SIDE OF CONTENT */
-.who-are-we-content-wrapper{
-    position: relative;
-}
-.who-are-we-content-left{
-    top: 0;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
-.who-are-we-content-left-1{
-    top: 10rem;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left-1 img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
-.who-are-we-content-left-2{
-    top: 20rem;
-    right: 0;
-    position: absolute;
-    margin-right: 5rem;
-}
-.who-are-we-content-left-2 img{
-    border: 2px dashed rgb(251,106,25); 
-   position: absolute;
-   border-radius: 50%;
-    padding: .4rem;
-    top: 4rem;
-    right: 23rem;
-    
-}
-
-.recent-wrapper{
-    margin-top: 1rem;
-    text-align:center;
-}
-.recent-wrapper > h5{
-    font-size: 1rem;
-    padding: 0 1rem 0 1rem;
-}
-.recent-wrapper > h5::after{
-    content: '';
-    position: relative;
-    bottom: .7rem;
-    left: 0.2rem;
-    border-bottom: 2px solid rgb(251,106,25);
-    padding: 0 1rem 0 1.6rem;
-}
-.recent-wrapper > h5::before{
-    content: '';
-    position: relative;
-    bottom: .7rem;
-    left: -0.2rem;
-    border-bottom: 2px solid rgb(251,106,25);
-    padding: 0 1.6rem 0 1rem;
-}
 
 .all-categories-btn > button{
     border: 1px solid rgb(11,44,61);
@@ -389,17 +303,19 @@ grid-template-columns: repeat(4, 1fr);
 width: 90vw;    
 position: relative;
 left: 5rem;
+margin-bottom: 2rem;
 
 }
 
 .agent-img {
     position: relative;
     justify-content: center;
+    
 }
 
 .agent-img > img{
     position: absolute;
-    width: 60%;
+    width: 50%;
     height: 40%;
     border-radius: 50%;
 }
@@ -407,7 +323,8 @@ left: 5rem;
     height: 25vh!important;
     background-color: rgb(251,106,25);
     text-align: center;
-    /* border-radius: 8px 0 ; */
+    
+    
 }
 .agent-body:nth-child(1){
     border-radius: 8px 8px 0 0;
@@ -419,14 +336,14 @@ left: 5rem;
     position: absolute;
     color: white;
     bottom: 2.4rem; 
-    left: 3rem;
+    left: 4.6rem;
     margin: 0 auto;
 }
 .agent-body > h4 {
     position: absolute;
     color: white;
     bottom: 60px; 
-    left: 2.6rem;
+    left: 4.3rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -436,7 +353,7 @@ left: 5rem;
      cursor: pointer;
     margin-bottom: 12px;
     position: relative;
-   left: 9rem;
+   left: 12.3rem;
    filter: brightness(0.5);
 }
 
@@ -515,7 +432,7 @@ left: 5rem;
 .explore h4{
     color: rgb(251,106,25);
      position: relative;
-    left: -12rem;
+    left: -1.2rem;
     top: -3rem;
 
 }
