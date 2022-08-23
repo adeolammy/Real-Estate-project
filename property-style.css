@@ -24,9 +24,9 @@
 .nav-sect, img, ul > li{
     margin-left: 1.4rem ;   
 }
-  ul > li:hover{
+ .nav-sect ul > li:hover{
     margin-left: 1.4rem ;      
-    border-bottom: 2px solid rgb(251,106,25);
+    background-color: rgb(251,106,25);
 }
 
 

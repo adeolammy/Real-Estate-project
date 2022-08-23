@@ -24,9 +24,9 @@
 .nav-sect, img, ul > li{
     margin-left: 1.4rem ;   
 }
-  ul > li:hover{
-    margin-left: 1.4rem ;      
-    border-bottom: 2px solid rgb(251,106,25);
+ .nav-sect ul > li:hover{
+    margin-left: 1.4rem ;  
+    background-color: rgb(251,106,25);
 }
 
 
@@ -347,7 +347,8 @@ margin-bottom: 2rem;
     text-align: center;
     margin: 0 auto;
 }
-.agent-body > img {
+
+.agent-body >  a {
     display: flex;
     flex-direction: column;
      cursor: pointer;
@@ -356,7 +357,6 @@ margin-bottom: 2rem;
    left: 12.3rem;
    filter: brightness(0.5);
 }
-
 
 /* FOOTER  FOOOTER  FOOTER */
 
